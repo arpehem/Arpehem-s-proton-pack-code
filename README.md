@@ -2,6 +2,8 @@
 This is the code to use if you realyzed you bought a **common cathode bargraph** or only have access to this model.
 This code is designed to be used with **2 Arduino nanos** or your favorite boards that have at least as many i/o ports and handles Arduino in order to minimyze the amount of wires running from the wand to the pack and has a unique smoke purge seuqence and design as well as all the bargraph animations.
 
+These files and instructions are compatible with the Q-Pack.
+
 Check out this link to see it in action:
 https://youtu.be/VGt3vFmbnvs
 
@@ -127,7 +129,7 @@ Daisy chain 4 5mm LEDs and connect the first one's data input to wand D10.
 Sawder the output contacts of the first bar onto the input contacts of the second one to make a 16 bit led bar. Connect the first bar data input to pack D3.
 - **Cyclotron:**
 Glue in the 8mm led INSIDE the flashlight reflector or trough them if you got 5mm aRGB LEDs instead. Connect the first one's data pin to pack D2.
-- **Smoker:**
+- **DIY Smoker:**
 We're going to push air in the vape's air inlet instead of pulling it out. Use a dremel to marry the blower fan to the side of the vape tank. Use a tie-wrap to secure the blower fan onto the base of the vape tank alligned with the vape tank's air intake. Dril a hole in your 510 to EGO adapter's base and use it to sawder in a wire to ground. Sawder directly onto the midle contact for the positive contact. Screw in the vape tank adaptor and connect it to the high power buck converter. Connect the high power buck converter to a 20a relay. That relay is controlled by the smoke pin Arduino output. The white 5v LED strip is to be connected to it's own relay and so does the 40mm purge fan. Theire individual relays are activated by a third relay that is driven by the smoke purge pin.
 You will need to print these files for the purge tank:
 https://www.thingiverse.com/thing:5848057
@@ -142,6 +144,8 @@ Print the smoker files.
 Glue on the tip on the straight end of the 90_intake_2 piece. Glue the 45_intake_2 in the side hole of the vent_cup. Glue to 90_intake_2 to the end of the 45_intake_2 end in the vent_cup. Use 1/4" plastic tubing to connect the intake to the 90_angle and then to then output of the vape tank.
 The parts are jointed by 1/4" plastic tubing.
 Cut a piece of 3/16" air filter a bit larger than the 40mm fan. Place the air filter on the vaent cup round hole and crew the 40mm in with 4 M3 screws pushing trough the filter. This will create enough air resistance so that the smoke stays in the smoker but not enough to keep the fan from blowing air trough it.
+- **Bought smoker**:
+Follow the smoker's instructions on how to power it but, do it trough the smoker relay so that it's activated by our code. There is no special need for the smoker in order for the purge function to work properlly other than to spew out smoke when powered.
 - **Connecting a relay to arduino:**
 In order for the arduino to be able to drive a relay, we're going to need to use transistors attached to resistances. Sawder a 1k resistance to the middle prone of a PNP 2N2222 transistor. Sawder one of the 2 side ones to the power supply and the other end to the relay. Connect the resistance to the Arduino board. Do this for the smoker pin and the purge pin relays.
 - **Audio:**
