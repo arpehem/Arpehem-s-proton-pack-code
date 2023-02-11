@@ -20,6 +20,7 @@ Features:
 - Uses DFplayer mini
 - Customisable sound amplification
 - Aviation plug adaptor for the wand
+- Bluetooth (depending on the amp)
 
 
 Upcomming updates:
