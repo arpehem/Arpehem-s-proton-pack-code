@@ -82,6 +82,7 @@ Wand and pack:
 - 1 x 5V white LED strip (about a foot)
 - 10 x 1k omh resistances
 - 2 x NPN transistor (2N2222)
+- 1 x 4-PIN aviation connector (Optional)
 
 Pinout:
 Wand: 
