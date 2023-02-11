@@ -146,7 +146,7 @@ You have an array of tips to choose, I prefer the 1 row 1 tip diffuser.
 Print the smoker files.
 Glue on the tip on the straight end of the 90_intake_2 piece. Glue the 45_intake_2 in the side hole of the vent_cup. Glue to 90_intake_2 to the end of the 45_intake_2 end in the vent_cup. Use 1/4" plastic tubing to connect the intake to the 90_angle and then to then output of the vape tank.
 The parts are jointed by 1/4" plastic tubing.
-Cut a piece of 3/16" air filter a bit larger than the 40mm fan. Place the air filter on the vaent cup round hole and crew the 40mm in with 4 M3 screws pushing trough the filter. This will create enough air resistance so that the smoke stays in the smoker but not enough to keep the fan from blowing air trough it.
+Cut a piece of 3/16" air filter a bit larger than the 40mm fan. Place the air filter on the vaent cup round hole and crew the 40mm in with 4 M3 screws pushing trough the filter. This will create enough air resistance so that the smoke stays in the smoker but not enough to keep the fan from blowing air trough it. You're going to need to tweak the buck converter's voltage for your vape machine to produce a light but thick smoke that produces the wanted effect.
 - **Bought smoker**:
 Follow the smoker's instructions on how to power it but, do it trough the smoker relay so that it's activated by our code. There is no special need for the smoker in order for the purge function to work properlly other than to spew out smoke when powered.
 - **Connecting a relay to arduino:**
