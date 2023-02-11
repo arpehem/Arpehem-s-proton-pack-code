@@ -19,7 +19,7 @@ Features:
 - Compatible with pre-built smoker
 - Uses DFplayer mini
 - Customisable sound amplification
-- Aviation plug adaptor for the wand
+- Aviation connector adaptor for the wand handle
 - Bluetooth (depending on the amp)
 
 
