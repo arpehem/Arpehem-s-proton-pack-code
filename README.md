@@ -80,6 +80,8 @@ Wand and pack:
 - 1 x 3mm red LED
 - 1 x 5mm yellow LED
 - 1 x 5V white LED strip (about a foot)
+- 10 x 1k omh resistances
+- 2 x NPN transistor (2N2222)
 
 Pinout:
 Wand: 
@@ -145,3 +147,5 @@ Connect the speaker(s) to the amp. Power the amp straight from the powercell. Do
 Desawder the rotary encoder from it's board without damaging either parts. Use 1" wires sawdered to each leg of the rotary encoder and sawder those onto their respective places on the removed board. There you have it: a rotary encoder that fits in the front knob position. Carefull not to drill the hole it goes into too close to the Clippard valve as the front knob will need to have clearance to be pushed and turned. In order to glue the front knob on the rotary encoder correctly, I recommend using a gauge to space it from the main wand box when installing to leave clearance for a click and if you are using an alluminum knob, I used a long set screw from the inside of it to create an inner spacer.
 - **Top knob:**
 Glue a M3 nut on the top the 3 position rotary switch selector. Run a long M3 screw in the tob knob and glue them together. Install top knob in it's place and screw in the nut on the top of the rotary switch to it. Now that the top knob is attached to the rotary switch, make sure the know is in the correct place and glue the 3 position switch to the inside of the wand box. You can unscrew and screw it back (for painting) if you are carefull. Make sure to not apply too much force to the switch when screwing the top knob in and out as it will easily break (I recommend ordering 5 to have spares).
+- **Connecting a relay to arduino:**
+In order for the arduino to be able to drive a relay, we're going to need to use transistors attached to resistances. Sawder a 1k resistance to the middle prone of a PNP 2N2222 transistor. Sawder one of the 2 side ones to the power supply and the other end to the relay. Connect the resistance to the Arduino board. Do this for the smoker pin and the purge pin relays.
