@@ -1,6 +1,6 @@
 # Arpehem-s-proton-pack-code
-This is the code to use if you can only find or realyzed you bought a common cathode bargraph.
-This code is designed to be used with 2 Arduino nanos or your favorite boards that have at least as many i/o ports and handles Arduino in order to minimyze the amount of wires running from the wand to the pack.
+This is the code to use if you can only find or realyzed you bought a **common cathode bargraph**.
+This code is designed to be used with **2 Arduino nanos** or your favorite boards that have at least as many i/o ports and handles Arduino in order to minimyze the amount of wires running from the wand to the pack and has a unique smoke purge seuqence and design as well as all the bargraph animations.
 
 Check out this link to see it in action:
 https://youtu.be/VGt3vFmbnvs
