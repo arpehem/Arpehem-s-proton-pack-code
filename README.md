@@ -9,6 +9,7 @@ Features:
 - Common cathode bargraph full animations
 - aRGB 4x5mm aRGB wand tip LED lights
 - Functional top and front wand knobs
+- Music mode and volume control on the wand
 - Bargraph volume display
 - Full pack aRGB controled
 - New N-filter realistic smoke purge system
