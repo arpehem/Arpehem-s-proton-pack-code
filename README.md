@@ -79,59 +79,46 @@ Wand and pack:
 
 Pinout:
 Wand: 
-D2 Boot pin (wand switch 2)
-D3 Light switch (wand switch 1)
-D4 Smoke switch (wand switch 3)
-D5 Fire pin (fire button)
-D6 Vent pin (vent button)
-D7 Btn pin (Rotary encoder btn pin)
-D8 DT  (Rotary encoder data pin)
-D9 CLK  (Rotary encoder clock pin)
-D10 Cannon LED aRGB (Wand tip LED)
-D11 Fire light (wand tip orange light)
-D12
-D13 Rotary switch 1 (top knob rotary switch output 1)
-A0 Slo-blo LED (wand red light)
-A1 Wand white flashing hat light 1 (Wand top light large)
-A2 Wand white neon hat light (Wand top light small)
-A3 Wand white flashing hat light 2 (Wand top light large)
-A4 HT16K33 matrix SDA
-A5 HT16K33 matrix SCL
-A6 Rotary switch 2 (top knob rotary switch output 2)
-A7 Rotary switch 3 (top knob rotary switch output 3)
+- D2 Boot pin (wand switch 2)
+- D3 Light switch (wand switch 1)
+- D4 Smoke switch (wand switch 3)
+- D5 Fire pin (fire button)
+- D6 Vent pin (vent button)
+- D7 Btn pin (Rotary encoder btn pin)
+- D8 DT  (Rotary encoder data pin)
+- D9 CLK  (Rotary encoder clock pin)
+- D10 Cannon LED aRGB (Wand tip LED)
+- D11 Fire light (wand tip orange light)
+- D12
+- D13 Rotary switch 1 (top knob rotary switch output 1)
+- A0 Slo-blo LED (wand red light)
+- A1 Wand white flashing hat light 1 (Wand top light large)
+- A2 Wand white neon hat light (Wand top light small)
+- A3 Wand white flashing hat light 2 (Wand top light large)
+- A4 HT16K33 matrix SDA
+- A5 HT16K33 matrix SCL
+- A6 Rotary switch 2 (top knob rotary switch output 2)
+- A7 Rotary switch 3 (top knob rotary switch output 3)
 
 Pack:
-D2 Cyclotron aRGB data
-D3 Powercell aRGB data
-D4 Purge pin (Purge relay)
-D5 Smoke pin (smoke relay)
-D6 
-D7 
-D8 
-D9 
-D10 DFplayer mini RX
-D11 DFplayer mini TX
-D12
-D13 
-A0 
-A1 
-A2 
-A3 
-A4 
-A5 
-A6 
-A7 
+- D2 Cyclotron aRGB data
+- D3 Powercell aRGB data
+- D4 Purge pin (Purge relay)
+- D5 Smoke pin (smoke relay)
+- D10 DFplayer mini RX
+- D11 DFplayer mini TX
+
 
 Instructions:
-Start by running power from the main power switch (2 way rotary switch) connected to a buck converter that lowers the 12V to 5V to the 2 arduinos separately. Do not use 5V directly from the battery pack, it causes issues. Connect the first arduino's RX to the second one's TX and the first one's TX to the second one's RX. Basically, connect them backwards to one another. Now the wand 'speaks' to the pack.
+-Start by running power from the main power switch (2 way rotary switch) connected to a buck converter that lowers the 12V to 5V to the 2 arduinos separately. Do not use 5V directly from the battery pack, it causes issues. Connect the first arduino's RX to the second one's TX and the first one's TX to the second one's RX. Basically, connect them backwards to one another. Now the wand 'speaks' to the pack.
 Follow these special steps and then connect everything else that is iddentified in the pinout section.
-Wand tip: 
+-Wand tip: 
 Daisy chain 4 5mm LEDs and connect the first one's data input to wand D10.
-Power cell:
+-Power cell:
 Sawder the output contacts of the first bar onto the input contacts of the second one to make a 16 bit led bar. Connect the first bar data input to pack D3.
-Cyclotron:
+-Cyclotron:
 Glue in the 8mm led INSIDE the flashlight reflector or trough them if you got 5mm aRGB LEDs instead. Connect the first one's data pin to pack D2.
-Smoker:
+-Smoker:
 We're going to push air in the vape's air inlet instead of pulling it out. Use a dremel to marry the blower fan to the side of the vape tank. Use a tie-wrap to secure the blower fan onto the base of the vape tank alligned with the vape tank's air intake. Dril a hole in your 510 to EGO adapter's base and use it to sawder in a wire to ground. Sawder directly onto the midle contact for the positive contact. Screw in the vape tank adaptor and connect it to the high power buck converter. Connect the high power buck converter to a 20a relay. That relay is controlled by the smoke pin Arduino output. The white 5v LED strip is to be connected to it's own relay and so does the 40mm purge fan. Theire individual relays are activated by a third relay that is driven by the smoke purge pin.
 You will need to print these files for the purge tank:
 https://www.thingiverse.com/thing:5848057
