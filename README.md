@@ -49,13 +49,13 @@ Required components:
 - Audio option 2 (speaker wattage has to be a bit more than the chosen amp output to avoid any problems):
 - - 1 x Speaker that fits your motherboard speaker hole.
 - DIY Smoker:
-- 1 x 510 to EGO adapter (optional but way easier to use)
-- 1 x 12a 100W buck converter
-- 2 X 20a relay
-- 1 x 0.8 omh Vape tank
-- 1 x 50mm 230mah blower fan
-- 3d printer
-- 3" of 1/4" plastic tubing that can be found in hardware stores
+- - 1 x 510 to EGO adapter (optional but way easier to use)
+- - 1 x 12a 100W buck converter
+- - 2 X 20a relay
+- - 1 x 0.8 omh Vape tank
+- - 1 x 50mm 230mah blower fan
+- - 3d printer
+- - 3" of 1/4" plastic tubing that can be found in hardware stores
 
 Wand and pack:
 - 1 x 2 way rotary switch (https://amzn.to/40L4XQX)
