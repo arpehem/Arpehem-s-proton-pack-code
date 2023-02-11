@@ -17,6 +17,7 @@ Features:
 - Compatible with pre-built smoker
 - Uses DFplayer mini
 - Customisable sound amplification
+- Aviation plug adaptor for the wand
 
 
 Upcomming updates:
@@ -112,32 +113,32 @@ Pack:
 
 
 Instructions:
-- Prepping the inputs:
+- **Wand connector:** Print the plug file. This is a replacement end cap for the wand handle allowing you to use a 4 pin aviation connector to easily disconnect the want from the pack.
+- **Prepping the inputs:**
 Every button or switch input need to go to the i/o ports it's assigned to which needs to have a 1k omh resistance running to the ground each. This is to limit interference and ghost inputs. (not a pun) An easy way to do this is to use dupont connectors in which you brace the input wire with the 1k omh resistor. Once everything connected, weld all resistances together on a ground.
-- Start by running power from the main power switch (2 way rotary switch) connected to a buck converter that lowers the 12V to 5V to the 2 arduinos separately. Do not use 5V directly from the battery pack, it causes issues. Connect the first arduino's RX to the second one's TX and the first one's TX to the second one's RX. Basically, connect them backwards to one another. Now the wand 'speaks' to the pack.
-Follow these special steps and then connect everything else that is iddentified in the pinout section.
-- Wand tip: 
+- **Power and communication:** Start by running power from the main power switch (2 way rotary switch) connected to a buck converter that lowers the 12V to 5V to the 2 arduinos separately. Do not use 5V directly from the battery pack, it causes issues. Connect the first arduino's RX to the second one's TX and the first one's TX to the second one's RX. Basically, connect them backwards to one another. Now the wand 'speaks' to the pack.
+- **Wand tip:**
 Daisy chain 4 5mm LEDs and connect the first one's data input to wand D10.
-- Power cell:
+- **Power cell:**
 Sawder the output contacts of the first bar onto the input contacts of the second one to make a 16 bit led bar. Connect the first bar data input to pack D3.
-- Cyclotron:
+- **Cyclotron:**
 Glue in the 8mm led INSIDE the flashlight reflector or trough them if you got 5mm aRGB LEDs instead. Connect the first one's data pin to pack D2.
-- Smoker:
+- **Smoker:**
 We're going to push air in the vape's air inlet instead of pulling it out. Use a dremel to marry the blower fan to the side of the vape tank. Use a tie-wrap to secure the blower fan onto the base of the vape tank alligned with the vape tank's air intake. Dril a hole in your 510 to EGO adapter's base and use it to sawder in a wire to ground. Sawder directly onto the midle contact for the positive contact. Screw in the vape tank adaptor and connect it to the high power buck converter. Connect the high power buck converter to a 20a relay. That relay is controlled by the smoke pin Arduino output. The white 5v LED strip is to be connected to it's own relay and so does the 40mm purge fan. Theire individual relays are activated by a third relay that is driven by the smoke purge pin.
 You will need to print these files for the purge tank:
 https://www.thingiverse.com/thing:5848057
-You'll need these pieces:
-- 45_intake_2
-- 90_angle
-- Vent_cup
-- 90_intake_2
-- and a tip diffuser of your liking listed in the files.
+**You'll need these pieces:**
+- - 45_intake_2
+- - 90_angle
+- - Vent_cup
+- - 90_intake_2
+- - and a tip diffuser of your liking listed in the files.
 You have an array of tips to choose, I prefer the 1 row 1 tip diffuser.
 Glue on the tip on the straight end of the 90_intake_2 piece. Glue the 45_intake_2 in the side hole of the vent_cup. Glue to 90_intake_2 to the end of the 45_intake_2 end in the vent_cup. Use 1/4" plastic tubing to connect the intake to the 90_angle and then to then output of the vape tank.
 The parts are jointed by 1/4" plastic tubing.
-- Audio:
+- **Audio:**
 Connect the speaker(s) to the amp. Power the amp straight from the powercell. Don't use power converters as it will induce interference in the audio signal. Connect the amp's ground the main power switch (or power if you decided to control power by the positive). Connect the DFplayer mini outputs to the amp's input. Unpack the MP3.rar in a folder called MP3 on a SD card and insert it in de DFplayer mini.
-- Front volume/music knob:
+- **Front volume/music knob:**
 Desawder the rotary encoder from it's board without damaging either parts. Use 1" wires sawdered to each leg of the rotary encoder and sawder those onto their respective places on the removed board. There you have it: a rotary encoder that fits in the front knob position. Carefull not to drill the hole it goes into too close to the Clippard valve as the front knob will need to have clearance to be pushed and turned. In order to glue the front knob on the rotary encoder correctly, I recommend using a gauge to space it from the main wand box when installing to leave clearance for a click and if you are using an alluminum knob, I used a long set screw from the inside of it to create an inner spacer.
-- Top knob:
+- **Top knob:**
 Glue a M3 nut on the top the 3 position rotary switch selector. Run a long M3 screw in the tob knob and glue them together. Install top knob in it's place and screw in the nut on the top of the rotary switch to it. Now that the top knob is attached to the rotary switch, make sure the know is in the correct place and glue the 3 position switch to the inside of the wand box. You can unscrew and screw it back (for painting) if you are carefull. Make sure to not apply too much force to the switch when screwing the top knob in and out as it will easily break (I recommend ordering 5 to have spares).
