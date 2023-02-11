@@ -132,4 +132,4 @@ You have an array of tips to choose, I prefer the 1 row 1 tip diffuser.
 Glue on the tip on the straight end of the 90_intake_2 piece. Glue the 45_intake_2 in the side hole of the vent_cup. Glue to 90_intake_2 to the end of the 45_intake_2 end in the vent_cup. Use 1/4" plastic tubing to connect the intake to the 90_angle and then to then output of the vape tank.
 The parts are jointed by 1/4" plastic tubing.
 - Audio:
-Connect the speaker(s) to the amp. Power the amp straight from the powercell. Don't use power converters as it will induce interference in the audio signal. Connect the amp's ground the main power switch (or power if you decided to control power by the positive).
+Connect the speaker(s) to the amp. Power the amp straight from the powercell. Don't use power converters as it will induce interference in the audio signal. Connect the amp's ground the main power switch (or power if you decided to control power by the positive). Connect the DFplayer mini outputs to the amp's input.
