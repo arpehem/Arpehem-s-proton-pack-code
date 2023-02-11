@@ -40,12 +40,12 @@ If you keep shooting, the pack will force vent, doing all the thing normal venti
 Controlling the music and the volume is done with the front knob which is attached to the rotary encoder. Pressing it once will put it in volume mode which will display it's value on the bargraph. Raisin the volume will raise the bargraph value and vice versa. Clicking it once more will bring it back to normal mode. Double clicking the rotary encoder will start the music and holding it down will skipp to the next song. Clicking it twice again will bring it back in normal pack mode.
 
 Required components:
-Audio option 1 (speakers and sub watts have to be a bit more than the chosen amp output to avoid any problems):
-- 1 x Subwoofer the size that fits your motherboard speaker hole.
-- 2 x 3" car speaker 
-- 1 x amp with 2 speaker channels and 1 sub channel
-Audio option 2 (speaker wattage has to be a bit more than the chosen amp output to avoid any problems):
-- 1 x Speaker that fits your motherboard speaker hole.
+-  Audio option 1 (speakers and sub watts have to be a bit more than the chosen amp output to avoid any problems):
+- - 1 x Subwoofer the size that fits your motherboard speaker hole.
+- - 2 x 3" car speaker 
+- - 1 x amp with 2 speaker channels and 1 sub channel
+- Audio option 2 (speaker wattage has to be a bit more than the chosen amp output to avoid any problems):
+- - 1 x Speaker that fits your motherboard speaker hole.
 DIY Smoker:
 - 1 x 510 to EGO adapter (optional but way easier to use)
 - 1 x 12a 100W buck converter
