@@ -90,6 +90,7 @@ Here is a shopping list of the parts I found on Amazon:
 https://www.amazon.ca/hz/wishlist/ls/2MNKQJ50DXHUB?ref_=wl_fv_le
 
 Pinout:
+
 Wand: 
 - D2 Boot pin (wand switch 2)
 - D3 Light switch (wand switch 1)
@@ -134,14 +135,16 @@ Sawder the output contacts of the first bar onto the input contacts of the secon
 Glue in the 8mm led INSIDE the flashlight reflector or trough them if you got 5mm aRGB LEDs instead. Connect the first one's data pin to pack D2.
 - **DIY Smoker:**
 We're going to push air in the vape's air inlet instead of pulling it out. Use a dremel to marry the blower fan to the side of the vape tank. Use a tie-wrap to secure the blower fan onto the base of the vape tank alligned with the vape tank's air intake. Dril a hole in your 510 to EGO adapter's base and use it to sawder in a wire to ground. Sawder directly onto the midle contact for the positive contact. Screw in the vape tank adaptor and connect it to the high power buck converter. Connect the high power buck converter to a 20a relay. That relay is controlled by the smoke pin Arduino output. The white 5v LED strip is to be connected to it's own relay and so does the 40mm purge fan. Theire individual relays are activated by a third relay that is driven by the smoke purge pin.
+
 You will need to print these files for the purge tank:
 https://www.thingiverse.com/thing:5848057
+
 **You'll need these pieces:**
-- - 45_intake_2
-- - 90_angle
-- - Vent_cup
-- - 90_intake_2
-- - and a tip diffuser of your liking listed in the files.
+- 45_intake_2
+- 90_angle
+- Vent_cup
+- 90_intake_2
+- and a tip diffuser of your liking listed in the files.
 
 You have an array of tips to choose, I prefer the 1 row 1 tip diffuser.
 Print the smoker files.
