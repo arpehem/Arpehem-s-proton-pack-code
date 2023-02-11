@@ -112,6 +112,8 @@ Pack:
 
 
 Instructions:
+- Prepping the inputs:
+Every button or switch input need to go to the i/o ports it's assigned to which needs to have a 1k omh resistance running to the ground each. This is to limit interference and ghost inputs. (not a pun) An easy way to do this is to use dupont connectors in which you brace the input wire with the 1k omh resistor. Once everything connected, weld all resistances together on a ground.
 - Start by running power from the main power switch (2 way rotary switch) connected to a buck converter that lowers the 12V to 5V to the 2 arduinos separately. Do not use 5V directly from the battery pack, it causes issues. Connect the first arduino's RX to the second one's TX and the first one's TX to the second one's RX. Basically, connect them backwards to one another. Now the wand 'speaks' to the pack.
 Follow these special steps and then connect everything else that is iddentified in the pinout section.
 - Wand tip: 
