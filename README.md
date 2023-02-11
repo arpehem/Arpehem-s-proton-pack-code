@@ -56,7 +56,7 @@ Required components:
 - DIY Smoker:
 - - 1 x 510 to EGO adapter (optional but way easier to use)
 - - 1 x 12a 100W buck converter
-- - 2 X 20a relay
+- - 3 X 20a relay
 - - 1 x 0.8 omh Vape tank and coil
 - - 1 x 50mm 230mah blower fan
 - - 3d printer
