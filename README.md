@@ -52,6 +52,7 @@ Required components:
 - - 1 x amp with 2 speaker channels and 1 sub channel
 - Audio option 2 (speaker wattage has to be a bit more than the chosen amp output to avoid any problems):
 - - 1 x Speaker that fits your motherboard speaker hole.
+- - 1 x amp 1 channel (mono)
 - DIY Smoker:
 - - 1 x 510 to EGO adapter (optional but way easier to use)
 - - 1 x 12a 100W buck converter
