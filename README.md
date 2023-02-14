@@ -125,12 +125,14 @@ Pack:
 
 
 Instructions:
+I will skipp trough: 'connect positive to the positive contact and negative to the negative contact. Remember that every negative needs to go to the main power switch before the power supply. Do not power devices trough the arduino 5V outputs, use buck converters to modulate the 12V signal to a 5V one. Audio needs to be on it's own buck converter to avoid interference BUT the amp, power that one 12V directly from the power source.
+
 - **Wand connector:** Print the plug file. This is a replacement end cap for the wand handle allowing you to use a 4 pin aviation connector to easily disconnect the want from the pack.
 - **Prepping the inputs:**
 Every button or switch input need to go to the i/o ports it's assigned to which needs to have a 1k omh resistance running to the ground each. This is to limit interference and ghost inputs. (not a pun) An easy way to do this is to use dupont connectors in which you brace the input wire with the 1k omh resistor. Once everything connected, weld all resistances together on a ground.
 - **Power and communication:** Start by running power from the main power switch (2 way rotary switch) connected to a buck converter that lowers the 12V to 5V to the 2 arduinos separately. Do not use 5V directly from the battery pack, it causes issues. Connect the first arduino's RX to the second one's TX and the first one's TX to the second one's RX. Basically, connect them backwards to one another. Now the wand 'speaks' to the pack.
 - **Wand tip:**
-Daisy chain 4 5mm LEDs and connect the first one's data input to wand D10.
+Glue 4x5mm aRGB LEDs next to one another so that it fits where you want it to go in the barrel. Daisy chain them and connect the first one's data input to wand D10. (Remember, to connect individual aRGB LEDs, you need to connect i'ts data out to the next one's data in)
 - **Power cell:**
 Sawder the output contacts of the first bar onto the input contacts of the second one to make a 16 bit led bar. Connect the first bar data input to pack D3.
 - **Cyclotron:**
