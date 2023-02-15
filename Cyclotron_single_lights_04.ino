@@ -1,3 +1,6 @@
+// This code has initially been created entirelly by Arpehem and is free to be used, modified or updated by anyone as long as this credit remains.
+// This code is compatible a smoker for the N-filter but is optional.
+
 #include <DFPlayerMini_Fast.h>
 #include <FastLED.h>
 #include <SoftwareSerial.h>
