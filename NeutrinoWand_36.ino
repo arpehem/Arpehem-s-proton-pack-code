@@ -1,3 +1,6 @@
+// This code has initially been created entirelly by Arpehem and is free to be used, modified or updated by anyone as long as this credit remains.
+// This code is compatible with a common cathode bargraph only.
+
 #include <FireTimer.h>
 #include <DFPlayerMini_Fast.h>
 #include <SoftwareSerial.h>
