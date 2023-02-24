@@ -87,6 +87,7 @@ Wand and pack:
 - 10 x 1k omh resistances
 - 2 x NPN transistor (2N2222)
 - 1 x 4-PIN aviation connector (Optional)
+- 1 x DF player mini
 
 Here is a shopping list of the parts I found on Amazon:
 https://www.amazon.ca/hz/wishlist/ls/2MNKQJ50DXHUB?ref_=wl_fv_le
